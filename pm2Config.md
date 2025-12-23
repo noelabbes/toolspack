@@ -36,3 +36,9 @@ Hagas un `stop` o un `delete`, recuerda guardar la configuración actual para qu
 pm2 save
 
 ```
+### Para ver los logs del proceso del servidor:
+
+```bash
+pm2 logs pro_concar_worker
+
+```
