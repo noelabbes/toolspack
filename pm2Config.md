@@ -42,3 +42,10 @@ pm2 save
 pm2 logs pro_concar_worker
 
 ```
+
+### Para listar los procesos:
+```bash
+pm2 list
+
+```
+
