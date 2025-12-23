@@ -39,7 +39,7 @@ pm2 save
 ### Para ver los logs del proceso del servidor:
 
 ```bash
-pm2 logs pro_concar_worker
+pm2 logs [SERVER_NAME]
 
 ```
 
@@ -48,4 +48,11 @@ pm2 logs pro_concar_worker
 pm2 list
 
 ```
+
+### Para reiniciar el proceso:
+```bash
+pm2 restart [SERVER_NAME]
+
+```
+
 
