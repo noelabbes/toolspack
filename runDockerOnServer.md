@@ -15,3 +15,7 @@ Estos son algunos comandos que más uso para manejar docker en un servidor Linux
   docker compose build --no-cache
 ```
 
+```bash
+  docker compose up -d
+```
+
