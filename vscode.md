@@ -1,4 +1,6 @@
-''' json
+Para insertar en .vscode y evitar los errores de Gradle y directorios no encontrados.
+
+```json
 {
   "java.import.exclusions": [
     "**/node_modules/**",
@@ -18,5 +20,7 @@
     "**/android": true,
     "**/ios": true
   }
+
+```
 }
 '''
