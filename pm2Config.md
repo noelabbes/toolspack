@@ -24,6 +24,7 @@ pm2 stop 0
 
 ```
 
+
 *Esto libera el puerto, pero el proceso seguirá apareciendo en tu lista con status `stopped`.*
 
 ---
@@ -52,6 +53,17 @@ pm2 list
 ### Para reiniciar el proceso:
 ```bash
 pm2 restart [SERVER_NAME]
+```
+
+### Otros Escenarios:
+
+Si la carpeta ya ha sido creada y necesitamos vincularlo con Git:
+
+```bash
+
+git remote set-url origin git@github.com:usuario/repositorio.git
+
+```
 
 ```
 
