@@ -65,6 +65,4 @@ git remote set-url origin git@github.com:usuario/repositorio.git
 
 ```
 
-```
-
 
