@@ -34,3 +34,12 @@ Ahora debes usar la dirección SSH, no la HTTPS:
 git clone git@github.com:noelabbes/[REPOSITORY_NAME].git
 
 ```
+
+### Otros Escenarios:
+
+Si la carpeta ya ha sido creada y necesitamos vincularlo con Git:
+
+```bash
+git remote set-url origin git@github.com:usuario/repositorio.git
+
+```
