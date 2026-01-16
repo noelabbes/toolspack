@@ -55,13 +55,6 @@ pm2 list
 pm2 restart [SERVER_NAME]
 ```
 
-### Otros Escenarios:
-
-Si la carpeta ya ha sido creada y necesitamos vincularlo con Git:
-
-```bash
-
-git remote set-url origin git@github.com:usuario/repositorio.git
 
 ```
 
