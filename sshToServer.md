@@ -1,4 +1,5 @@
-Crear archivo de nombre config, C:\Users\TuUsuario\.ssh\, sin extensión, y configurar el acceso con:
+Crear archivo de nombre config, C:\Users\TuUsuario\.ssh\
+Sin extensión, y configurar el acceso con:
 
 ```bash
 Host NombreDeTuServer
