@@ -55,7 +55,12 @@ pm2 list
 pm2 restart [SERVER_NAME]
 ```
 
+### Para crear el servicio con un nombre distinto
+```bash
 
+pm2 start server.js --name "api-backend"
 ```
+
+
 
 
