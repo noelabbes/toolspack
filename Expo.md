@@ -1,6 +1,3 @@
-Para armar tu **Toolspack** definitivo en Markdown y dominar el ecosistema, debemos dividir los comandos en dos grandes grupos: **Expo CLI** (local/desarrollo) y **EAS CLI** (servicios en la nube/builds).
-
-Aquí tienes el contenido listo para copiar y pegar en tu documentación, organizado por fases del ciclo de vida de la app.
 
 ---
 
