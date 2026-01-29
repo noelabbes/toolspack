@@ -79,17 +79,17 @@ clean:
 	npm install
 	@echo "✨ Entorno fresco."
 
-# --- GIT AUTOMATION ---
+# --- GIT AUTOMATION (Versión Windows CMD) ---
 save:
-	@if [ -z "$(m)" ]; then \
-		echo "❌ Error: Debes poner un mensaje. Uso: gs 'mensaje'"; \
-		exit 1; \
-	fi
-	@echo "📦 Empaquetando cambios en la rama: $(BRANCH)..."
+	@if "$(m)"=="" ( \
+		echo ❌ Error: Debes poner un mensaje. Uso: gs "mensaje" & \
+		exit 1 \
+	)
+	@echo 📦 Empaquetando cambios en la rama: $(BRANCH)...
 	git add .
 	git commit -m "$(m)"
 	git push origin $(BRANCH)
-	@echo "✅ ¡Listo! Código subido a $(BRANCH)."
+	@echo ✅ Listo. Codigo subido a $(BRANCH).
 
 ```
 
